@@ -1,0 +1,121 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background: url("../img/bg.png") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(49, 71, 89, 0.6);
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+a {
+  color: #44d9e6;
+}
+
+a:hover {
+  color: #44d9e6;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+  height: 100vh;
+}
+
+@media (max-width:400px) {
+  #header {
+    padding: 20px 0;
+  }
+  #header h1{
+    font-size: 2rem!important;
+  }
+  #header .logo img{
+    width: 100px;
+  }
+  #header h2{
+    font-size: 1rem!important;
+  }
+  #header .subscribe h4 {
+    font-size: 1.2rem!important;
+  }
+}
+
+#header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+#header h2 {
+  color: #eee;
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+
+#header .logo {
+  padding-bottom: 20px;
+}
+
+#header .subscribe {
+  font-size: 15px;
+  text-align: center;
+}
+
+#header .subscribe h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#header .social-links a {
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding-top: 14px;
+  margin: 0 3px;
+  border-radius: 50%;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#header .social-links a:hover {
+  background: #44d9e6;
+  border-color: #44d9e6;
+}
