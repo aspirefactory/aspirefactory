@@ -50,13 +50,13 @@ teamsList.forEach(team => {
     teamsListEl.innerHTML += `
     <div class="col-lg-3 col-md-6" id="team${team.id}">
     <div class="member" data-aos="fade-up" data-aos-delay="400">
-      <img src=${team.imageUrl} class="img-fluid" alt="" />
+      <img src="${team.imageUrl}" class="img-fluid" alt="" />
       <div class="member-info">
         <div class="member-info-content">
           <h4>${team.name}</h4>
           <span>${team.posting}</span>
           <div class="social">
-            <a href=${team.linkedInUrl} target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="${team.linkedInUrl}" target="_blank"><i class="fa fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -128,9 +128,9 @@ productsList.forEach(product => {
     <div class="col-lg-4 col-md-6 products-item filter-${product.type}">
     <div class="products-wrap">
       <figure>
-        <img src=${product.imageUrl} class="img-fluid" alt="" />
-        <a href=${product.imageUrl} class="link-preview venobox" data-gall="portfolioGallery"
-          title=${product.title} class="link-preview"><i class="ion ion-eye"></i></a>
+        <img src="${product.imageUrl}" class="img-fluid" alt="" />
+        <a href="${product.imageUrl}" class="link-preview venobox" data-gall="portfolioGallery"
+          title="${product.title}" class="link-preview"><i class="ion ion-eye"></i></a>
       </figure>
 
       <div class="products-info">
