@@ -5,42 +5,42 @@ const teamsList = [
     name: "Vidya Ravichandran",
     posting: "Operations Manager",
     linkedInUrl: "https://www.linkedin.com/in/vidyaravichandran/",
-    imageUrl: "./assets/img/team/vidya.png"
+    imageUrl: "./assets/img/Team/vidya.png"
   },
   {
     id: 2,
     name: "Naveen Krishnamurthy",
     posting: "Product Manager",
     linkedInUrl: "https://www.linkedin.com/in/naveenieus/",
-    imageUrl: "./assets/img/team/naveen.png"
+    imageUrl: "./assets/img/Team/naveen.png"
   },
   {
     id: 3,
     name: "Giriprabhu Seshadri",
     posting: "Engineering",
     linkedInUrl: "https://www.linkedin.com/in/giriprabhu/",
-    imageUrl: "./assets/img/team/giri.png"
+    imageUrl: "./assets/img/Team/giri.png"
   },
   {
     id: 4,
     name: "Gokulnath G P",
     posting: "Engineering",
     linkedInUrl: "https://www.linkedin.com/in/gokulnathgp/",
-    imageUrl: "./assets/img/team/gokul.png"
+    imageUrl: "./assets/img/Team/gokul.png"
   },
   {
     id: 5,
     name: "Shubham Singh",
     posting: "Tech Intern",
     linkedInUrl: "https://www.linkedin.com/in/shubhamsingh2454",
-    imageUrl: "./assets/img/team/shubham.png"
+    imageUrl: "./assets/img/Team/shubham.png"
   },
   {
     id: 6,
     name: "Deepak Ganesan",
     posting: "Marketing Intern",
     linkedInUrl: "https://www.linkedin.com/in/deepak-g-7939041a3",
-    imageUrl: "./assets/img/team/deepak.png"
+    imageUrl: "./assets/img/Team/deepak.png"
   }
 ]
 
