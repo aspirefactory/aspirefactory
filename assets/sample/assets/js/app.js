@@ -3,14 +3,14 @@ const teamsList = [
   {
     id: 1,
     name: "Vidya Ravichandran",
-    posting: "Operations Manager",
+    posting: "Co-Founder & Product Manager",
     linkedInUrl: "https://www.linkedin.com/in/vidyaravichandran/",
     imageUrl: "./assets/img/Team/vidya.png"
   },
   {
     id: 2,
     name: "Naveen Krishnamurthy",
-    posting: "Product Manager",
+    posting: "Co-Founder & Product Manager",
     linkedInUrl: "https://www.linkedin.com/in/naveenieus/",
     imageUrl: "./assets/img/Team/naveen.png"
   },
@@ -71,21 +71,21 @@ const productsList = [
     id: 1,
     title: "UV Dost - Micro",
     price: "2,000",
-    imageUrl: "./assets/img/products/uv_dust_micro_1.png",
+    imageUrl: "./assets/img/products/uv_dust_micro.png",
     type: "product"
   },
   {
     id: 2,
     title: "UV Dost - Cool",
     price: "3,500",
-    imageUrl: "./assets/img/portfolio/app2.jpg",
+    imageUrl: "./assets/img/products/uv_dust_cool.png",
     type: "product"
   },
   {
     id: 3,
     title: "UV Dost - Lite",
     price: "3,000",
-    imageUrl: "./assets/img/portfolio/app3.jpg",
+    imageUrl: "./assets/img/products/uv_dust_lite.png",
     type: "product"
   },
   {
@@ -99,21 +99,21 @@ const productsList = [
     id: 5,
     title: "UV Dost Kit - Micro",
     price: "1,500",
-    imageUrl: "./assets/img/portfolio/card1.jpg",
+    imageUrl: "./assets/img/products/uv_dust_micro.png",
     type: "kit"
   },
   {
     id: 6,
     title: "UV Dost Kit - Cool",
     price: "1,950",
-    imageUrl: "./assets/img/portfolio/card2.jpg",
+    imageUrl: "./assets/img/products/uv_dust_cool.png",
     type: "kit"
   },
   {
     id: 7,
     title: "UV Dost Kit - Pro",
     price: "2,300",
-    imageUrl: "./assets/img/portfolio/card3.jpg",
+    imageUrl: "./assets/img/products/uv_dust_pro_1.png",
     type: "kit"
   }
 ];
