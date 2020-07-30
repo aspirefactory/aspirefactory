@@ -71,49 +71,49 @@ const productsList = [
     id: 1,
     title: "UV Dost - Micro",
     price: "2,000",
-    imageUrl: "./assets/img/products/uv_dust_micro.png",
+    imageUrl: "./assets/img/products/uv_dost_micro.png",
     type: "product"
   },
   {
     id: 2,
     title: "UV Dost - Cool",
     price: "3,500",
-    imageUrl: "./assets/img/products/uv_dust_cool.png",
+    imageUrl: "./assets/img/products/uv_dost_cool.png",
     type: "product"
   },
   {
     id: 3,
     title: "UV Dost - Lite",
     price: "3,000",
-    imageUrl: "./assets/img/products/uv_dust_lite.png",
+    imageUrl: "./assets/img/products/uv_dost_lite.png",
     type: "product"
   },
   {
     id: 4,
     title: "UV Dost - Pro",
     price: "6,000",
-    imageUrl: "./assets/img/products/uv_dust_pro_1.png",
+    imageUrl: "./assets/img/products/uv_dost_pro.png",
     type: "product"
   },
   {
     id: 5,
     title: "UV Dost Kit - Micro",
     price: "1,500",
-    imageUrl: "./assets/img/products/uv_dust_micro.png",
+    imageUrl: "./assets/img/products/uv_dost_micro.png",
     type: "kit"
   },
   {
     id: 6,
     title: "UV Dost Kit - Cool",
     price: "1,950",
-    imageUrl: "./assets/img/products/uv_dust_cool.png",
+    imageUrl: "./assets/img/products/uv_dost_cool.png",
     type: "kit"
   },
   {
     id: 7,
     title: "UV Dost Kit - Pro",
     price: "2,300",
-    imageUrl: "./assets/img/products/uv_dust_pro_1.png",
+    imageUrl: "./assets/img/products/uv_dost_pro.png",
     type: "kit"
   }
 ];
