@@ -137,7 +137,7 @@ productsList.forEach(product => {
         <h4 class="title">${product.title}</h4>
         <p>&#8377; ${product.price}</p>
         <div class="btn-actions mt-2">
-          <a href="https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hi, I am interested in knowing more about ${product.title} at MRP: ${product.price}. Can you please send me more details?" target="_blank" class="btn-enquiry">Enquire now</a>
+          <a href="https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hi, I am interested in knowing more about ${product.title} at MRP: ${product.price}. Can you please send me more details?" target="_blank" class="btn-enquiry">Order Now</a>
         </div>
       </div>
     </div>
