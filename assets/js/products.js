@@ -4,14 +4,15 @@ $(document).ready(function() {
             var product = '';
             $.each(data, function(key, value) {
 
-                product += '<div class="col-lg-4 col-sm-4 text-center">'
+                product += '<div class="col-lg-6 col-sm-6 text-center">'
                 product += '<div class="mt-5 mr-2 containers">'
-                product += '<h4>' + value.product_name + '</h4>'
+                product += '<h4 class="text-center">' + value.product_name + '</h4>'
+                product += '<hr class="divider my-4" />'
                 product += '<a target="_blank" href="' + value.img + '">'
-                product += '<img class="img-thumbnail edge work-shop" src="' + value.img + '">'
+                product += '<img class="img-thumbnail edge work-shop" style="height:400px;" src="' + value.img + '">'
                 product += '</a>'
                 product += '<p class="text-center mt-3">'
-                product += '<a class="btn btn-primary mb-2" target="_blank" href="' + value.btnlink + '">View</a></p>'
+                product += '<a class="btn btn-primary mb-2" target="_blank" href="' + value.btnlink + '">View Details</a></p>'
                 product += '</div>'
                 product += '</div>'
 
