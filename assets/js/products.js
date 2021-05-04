@@ -44,9 +44,9 @@ $(document).ready(function() {
                 product += '<h6><b>Input Voltage:</b> ' + value.input_voltage + '</h6>'
                 product += '<h6><b>Power Cable:</b> ' + value.power_cable + '</h6>'
                 product += '<h6><b>Output:</b> ' + value.output + '</h6>'
+                product += '<h6><b>Price:</b> ' + value.rate + '</h6>'
                 product += '<p class="text-center mt-3">'
                 product += '<a class="btn btn-primary mb-2" target="_blank" href="' + value.btnlink + '">Order Now</a></p>'
-
                 product += '</div>'
                 product += '</div>'
 
@@ -79,6 +79,7 @@ $(document).ready(function() {
                 product += '<h6><b>Input Voltage:</b> ' + value.input_voltage + '</h6>'
                 product += '<h6><b>Power Cable:</b> ' + value.power_cable + '</h6>'
                 product += '<h6><b>Output:</b> ' + value.output + '</h6>'
+                product += '<h6><b>Price:</b> ' + value.rate + '</h6>'
                 product += '<p class="text-center mt-3">'
                 product += '<a class="btn btn-primary mb-2" target="_blank" href="' + value.btnlink + '">Order Now</a></p>'
 
@@ -114,6 +115,7 @@ $(document).ready(function() {
                 product += '<h6><b>Input Voltage:</b> ' + value.input_voltage + '</h6>'
                 product += '<h6><b>Power Cable:</b> ' + value.power_cable + '</h6>'
                 product += '<h6><b>Output:</b> ' + value.output + '</h6>'
+                product += '<h6><b>Price:</b> ' + value.rate + '</h6>'
                 product += '<p class="text-center mt-3">'
                 product += '<a class="btn btn-primary mb-2" target="_blank" href="' + value.btnlink + '">Order Now</a></p>'
 
