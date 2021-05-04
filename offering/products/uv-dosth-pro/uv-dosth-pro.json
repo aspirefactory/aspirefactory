@@ -3,7 +3,7 @@
     "id": "3",
     "product_name": "UV DOSTH - PRO STERILIZER",
     "img": "/assets/images/products/uv-pro.jpg",
-    "rate": "₹2799",
+    "rate": "₹9,999",
     "model_no":"AFUVD-001",
     "capacity":"35 Litres",
     "lamps":"1 lamp",
@@ -12,7 +12,7 @@
     "input_voltage":"240 VAC - 50 Hz",
     "power_cable":"3 Pin 5A, 1.2 meter",
     "output":"254nm UVC light",
-    "btnlink":"#"
+    "btnlink":"https://api.whatsapp.com/send?phone=919003712349&text=Hi there, I am interested in knowing more about UV Dost - Pro+ Sterilizer at MRP: ₹9,999. Can you please send me more details?"
 
 }
 ]
